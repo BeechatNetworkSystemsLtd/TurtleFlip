@@ -102,32 +102,59 @@ No transformation: Good detection
 
 **Tests results on different transformation attacks:**
 1.Strike: Good detection
+
 2.a. Medium gaussian noise: Good detection
+
 2.b. Strong gaussian noise: Average detection
+
 2.c. Pepper noise: Good detection
+
 2.d. Salt noise: Good detection
+
 2.e. Poisson noise: Good detection
+
 2.f. Procedural noise: Average detection
-3.JPEG effect: Good to average detection
+
+3. JPEG effect: Good to average detection
+
 4.a. Medium scale: Average detection
+
 4.b. Low scale: Bad to average detection
+
 5.a. Medium blur: Average detection
+
 5.b. Strong blur: Bad detection
+
 6.Skew: Average detection
+
 7.a. Medium aspect ratio height: Average detection
+
 7.b. Low aspect ratio height: Bad to average detection
+
 7.c. Medium aspect ratio width: Good to average detection
+
 7.d. Low aspect ratio width: Bad to average detection
+
 8.a. Rotation 90º CCW: Good detection
+
 8.b. Rotation 90º CW: Good detection
+
 8.c. Rotation 180º: Good detection
+
 9.a. Medium distortion: Bad to average detection
+
 9.b. Strong distortion: Bad detection
+
 10 Clone stamping: Average to bad detection
+
 11 Watermark: Average to good detection
+
 12 Color Inversion: Good detection
+
 13 Image overlay: Good detection
+
 **14. a. Combination of strike and noise: Bad to average detection**
+
 **14. b. Combination of medium distortion and gaussian noise: Bad to average detection**
 
 We have highlighted the transformation attacks that worked well against Google Vision and were subjectively easier to read for the developing team. From all the tests we can conclude cloud vision fails the most with Ruled Surface Distortion combined with Random Noise Distortions.
